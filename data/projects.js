@@ -306,5 +306,26 @@ coala should support generating metrics for your code.",
 		"tags" : ["Web", "CI"],
 		"markdown": "gitmate_gitlab.md",
 		"collaborating_projects" : ["coala", "GitMate", "IGitt"]
+	},
+	{
+		"name" : "Improve installation of coala and coala-bears",
+		"desc" : "This project is about improving the \
+		[bear installation tool](https://gitlab.com/coala/cib) and \
+		working around platform dependent requirements.",
+		"requirements" : [
+				"The participant should have one patch to [coala-bears](https://github.com/coala/coala-bears) accepted.",
+				"Huge plus is being familiar with the current design of cib",
+				"Knowledge of conda is a bonus, but not required."
+		],
+		"difficulty" : "medium",
+		"issues" : [
+			"https://github.com/coala/coala-bears/issues/845",
+			"https://github.com/coala/coala-bears/issues/664"
+		],
+		"mentors" : ["Adrianzatreanu", "Udayan12167"],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["Bears", "cib"],
+		"markdown": "improve_installation.md",
+		"collaborating_projects" : ["coala"]
 	}
 ]
