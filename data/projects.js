@@ -322,5 +322,21 @@ coala should support generating metrics for your code.",
 		"tags" : ["reStructuredText", "Sphinx"],
 		"markdown": "rstcheck_with_better_sphinx_support.md",
 		"collaborating_projects" : ["coala", "rstcheck"]
+	},
+	{
+		"name": "coala statistics",
+		"desc": "Statistics like How many times was coala ran? How many patches did coala suggest to the user? \
+			How many of those patches were accepted by the user? How many changes did coala bring to the source code? \
+			Benchmark? How many of the patches proposed by coala were edited by the user? How many patches/errors were ignored/silenced? \
+			Repository specific statistics and global statistics. Option to permit coala transmit these data to the coala server. \
+			Showcase the visualisations of the data on the coala website. Data visualisations are a good means of promotions \
+			and also to prove the power of coala(and help it conquer the world eventually.)",
+		"requirements": [],
+		"difficulty": "",
+		"mentors": [],
+		"initiatives": ["GSoC"],
+		"tags": ["Data Visualizations", "Data analysis", "Runtime analysis"],
+		"markdown": "coala_stats.md",
+		"collaborating_projects": ["coala"]
 	}
 ]
